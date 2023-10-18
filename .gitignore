@@ -1,0 +1,6 @@
+.vs
+WindowSizeChecker/obj
+WindowSizeChecker/bin
+
+*.user
+*.sln
