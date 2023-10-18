@@ -25,6 +25,12 @@
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_B5F71FB4F4C24C4C89C90F198BCC8F63"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -50,6 +56,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -124,6 +138,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B5F71FB4F4C24C4C89C90F198BCC8F63"
+            {
+            "SourcePath" = "8:..\\WindowSizeChecker\\Resources\\HowToUse.gif"
+            "TargetName" = "8:HowToUse.gif"
+            "Tag" = "8:"
+            "Folder" = "8:_4DF0AF2C49CC4E33BFAACC641C641892"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -181,7 +215,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WindowSizeChecker"
         "ProductCode" = "8:{694A8A64-7E1C-44C0-84F2-EFF37D8C97D3}"
-        "PackageCode" = "8:{F1609573-9359-4EDB-BE19-57879DEA7D8A}"
+        "PackageCode" = "8:{C66F5F5C-A678-408D-A4B4-B38059365A71}"
         "UpgradeCode" = "8:{328BBD2B-0C66-41BB-B65C-D1B374A05AC1}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
