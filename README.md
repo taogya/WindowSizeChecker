@@ -4,7 +4,7 @@ Screen size confirmation screen for Windows.
 
 # 使い方 (How To Use)
 ## Version 1.0.0
-![HowToUse_Version1.0.0](Publish/Version1.0.0/WindowSizeChecker/HowToUse.gif)
+![HowToUse_Version1.0.0](WindowSizeChecker/Resources/HowToUse.gif)
 
 # 動作環境 (Environment)
 - Windows10 x86/x64
