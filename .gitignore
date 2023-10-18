@@ -2,5 +2,7 @@
 WindowSizeChecker/obj
 WindowSizeChecker/bin
 
+WindowSizeCheckerInstaller/Release
+
 *.user
 *.sln

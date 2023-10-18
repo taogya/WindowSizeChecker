@@ -8,7 +8,7 @@
     <LangVersion>10</LangVersion>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
     <Title>WindowSizeChecker</Title>
     <Version>1.0.0</Version>
     <Authors>Taogya</Authors>
@@ -22,6 +22,8 @@
     <StartupObject>WindowSizeChecker.Program</StartupObject>
     <Platforms>x86</Platforms>
     <IsPublishable>True</IsPublishable>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
