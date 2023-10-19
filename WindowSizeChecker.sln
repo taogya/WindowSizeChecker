@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowSizeChecker", "WindowSizeChecker\WindowSizeChecker.csproj", "{94699038-80C7-41C5-904E-DDEEF8192A31}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WindowSizeCheckerInstaller", "WindowSizeCheckerInstaller\WindowSizeCheckerInstaller.vdproj", "{9084E906-700B-439C-932E-D09832371441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94699038-80C7-41C5-904E-DDEEF8192A31}.Debug|x86.ActiveCfg = Debug|x86
+		{94699038-80C7-41C5-904E-DDEEF8192A31}.Debug|x86.Build.0 = Debug|x86
+		{94699038-80C7-41C5-904E-DDEEF8192A31}.Release|x86.ActiveCfg = Release|x86
+		{94699038-80C7-41C5-904E-DDEEF8192A31}.Release|x86.Build.0 = Release|x86
+		{9084E906-700B-439C-932E-D09832371441}.Debug|x86.ActiveCfg = Debug
+		{9084E906-700B-439C-932E-D09832371441}.Debug|x86.Build.0 = Debug
+		{9084E906-700B-439C-932E-D09832371441}.Release|x86.ActiveCfg = Release
+		{9084E906-700B-439C-932E-D09832371441}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03242B31-A696-47B6-B8DA-DA4C50AC05FC}
+	EndGlobalSection
+EndGlobal

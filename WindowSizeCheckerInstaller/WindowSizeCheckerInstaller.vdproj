@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_004ABA29D8204B32841F882F793E5311"
+        "MsmKey" = "8:_37CDCB91836D477480B1978DBB7C52E3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -28,6 +28,12 @@
         "Entry"
         {
         "MsmKey" = "8:_B5F71FB4F4C24C4C89C90F198BCC8F63"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E92E8277208A447DB5BB2BE8F3B38B33"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -118,6 +124,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_37CDCB91836D477480B1978DBB7C52E3"
+            {
+            "SourcePath" = "8:..\\LICENSE.rtf"
+            "TargetName" = "8:LICENSE.rtf"
+            "Tag" = "8:"
+            "Folder" = "8:_4DF0AF2C49CC4E33BFAACC641C641892"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7257868144804A7FB09797F312DDD515"
             {
             "SourcePath" = "8:..\\WindowSizeChecker\\Resources\\resize.ico"
@@ -215,7 +241,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WindowSizeChecker"
         "ProductCode" = "8:{694A8A64-7E1C-44C0-84F2-EFF37D8C97D3}"
-        "PackageCode" = "8:{C66F5F5C-A678-408D-A4B4-B38059365A71}"
+        "PackageCode" = "8:{1AA8C823-C570-4457-9284-DEBCB266E97C}"
         "UpgradeCode" = "8:{328BBD2B-0C66-41BB-B65C-D1B374A05AC1}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -343,7 +369,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_004ABA29D8204B32841F882F793E5311"
+            "Target" = "8:_E92E8277208A447DB5BB2BE8F3B38B33"
             "Folder" = "8:_B917AFCED2BD4547A6BE30FDC704BBE1"
             "WorkingFolder" = "8:_4DF0AF2C49CC4E33BFAACC641C641892"
             "Icon" = "8:_7257868144804A7FB09797F312DDD515"
@@ -357,7 +383,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_004ABA29D8204B32841F882F793E5311"
+            "Target" = "8:_E92E8277208A447DB5BB2BE8F3B38B33"
             "Folder" = "8:_E5FF1201BBE343738485A29DC6E35C95"
             "WorkingFolder" = "8:_4DF0AF2C49CC4E33BFAACC641C641892"
             "Icon" = "8:_7257868144804A7FB09797F312DDD515"
@@ -454,6 +480,53 @@
             "Attributes" = "3:1"
                 "Dialogs"
                 {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_243F7A5FCB3A47BEBA0B4B2C8716B446"
+                    {
+                    "Sequence" = "3:110"
+                    "DisplayName" = "8:ライセンス条項"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminLicenseDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "EulaText"
+                            {
+                            "Name" = "8:EulaText"
+                            "DisplayName" = "8:#1008"
+                            "Description" = "8:#1108"
+                            "Type" = "3:6"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:_37CDCB91836D477480B1978DBB7C52E3"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Sunken"
+                            {
+                            "Name" = "8:Sunken"
+                            "DisplayName" = "8:#1007"
+                            "Description" = "8:#1107"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;True=4;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4873AC03652849458089F7294CB5C911"
                     {
                     "Sequence" = "3:100"
@@ -625,6 +698,53 @@
                             }
                         }
                     }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9C5CAECF0436483ABBB7D76F25CBF99F"
+                    {
+                    "Sequence" = "3:110"
+                    "DisplayName" = "8:ライセンス条項"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdLicenseDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "EulaText"
+                            {
+                            "Name" = "8:EulaText"
+                            "DisplayName" = "8:#1008"
+                            "Description" = "8:#1108"
+                            "Type" = "3:6"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:_37CDCB91836D477480B1978DBB7C52E3"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Sunken"
+                            {
+                            "Name" = "8:Sunken"
+                            "DisplayName" = "8:#1007"
+                            "Description" = "8:#1107"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;True=4;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_BA3E83C008844D749C5FD87CC9AF78D4"
                     {
                     "Sequence" = "3:200"
@@ -762,7 +882,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_004ABA29D8204B32841F882F793E5311"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E92E8277208A447DB5BB2BE8F3B38B33"
             {
             "SourcePath" = "8:..\\WindowSizeChecker\\obj\\x86\\Release\\net6.0-windows\\WindowSizeChecker.exe"
             "TargetName" = "8:"
@@ -784,7 +904,7 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:Release|x86"
             "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{9253DD86-FA8C-4FA7-9E5F-85968048C203}"
+            "OutputProjectGuid" = "8:{94699038-80C7-41C5-904E-DDEEF8192A31}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
